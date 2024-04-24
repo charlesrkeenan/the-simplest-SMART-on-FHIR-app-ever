@@ -1,4 +1,4 @@
-# the-simplest-SMART-on-FHIR-app-ever
+# The simplest SMART on FHIR app ever
 Written in less than 40 lines of code, this might be the simplest SMART on FHIR app ever.
 
 SMART on FHIR, despite its acronyms and jargon, is just a healthcare-specific adoption of two technologies that most developers are already familiar with: JSON and OAuth 2.0 / OIDC. [FHIR](https://www.hl7.org/fhir/R4/) is the data and API standard for exchanging patient records (the data being most commonly represented in JSON), and [SMART](https://smarthealthit.org/) is a slightly modified implementation of OAuth 2.0 / OIDC for securing those APIs. Mash up these two acronyms, and you get a production-ready standard for gaining access to healthcare APIs and exchanging data with other players in the industry.
